@@ -6,7 +6,9 @@ Linux : [![Build Status](https://travis-ci.org/qinwf/ropencc.svg?branch=master)]
 Windows 用户需要安装 RTools，https://cran.r-project.org/bin/windows/Rtools/ ，安装时注意 PATH 的设置。
 
 ```r
-devtools::install_github("qinwf/ropencc")
+# devtools::install_github("qinwf/ropencc")
+
+devtools::install_github("Lchiffon/ropencc")
 
 converter(S2T)["开放中文转换"]
 converter(S2TW)["一条信息"]
