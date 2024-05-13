@@ -10,6 +10,7 @@ Windows 用户需要安装 RTools，https://cran.r-project.org/bin/windows/Rtool
 
 devtools::install_github("Lchiffon/ropencc")
 
+library(ropencc)
 converter(S2T)["开放中文转换"]
 converter(S2TW)["一条信息"]
 converter(S2TWP)["一条信息"]
